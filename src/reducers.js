@@ -5,7 +5,7 @@ import {
     REQUEST_ROBOTS_FAILED
 } from "./constants";
 
-const initialStateSearch = {
+export const initialStateSearch = {
     searchField: ''
 };
 
@@ -18,7 +18,7 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
     }
 };
 
-const initialStateRobots = {
+export const initialStateRobots = {
     isPending: false,
     robots: [],
     error: ''
